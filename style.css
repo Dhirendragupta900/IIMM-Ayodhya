@@ -1,0 +1,38 @@
+.text-just{
+    text-align: justify;
+}
+
+.bulet{
+    list-style-type: none;
+}
+#aboutus{
+    background-image: url(../images/image10.png);
+    height: 350px;
+    background-size: cover;
+}
+.mycard{
+    transition:0.1s ease;
+}
+.mycard:hover{
+    margin-top: -20px;
+}
+.zoom-in div{
+    overflow:hidden;
+}
+.zoom-in img{
+    transition:0.3s ease;
+}
+.zoom-in:hover img
+{
+    transform: scale(1.2);
+}
+#icon ul{
+    list-style-type: none;
+}
+#icon ul li{
+    display: inline;
+    text-decoration: none;
+}
+#icon ul li a{
+    color:white;
+}
